@@ -96,11 +96,11 @@
 
         gaming1 {
             bindings = <
-&kp GRAVE  &kp F1        &kp F2        &kp F3  &kp F4        &kp F5          &trans  &kp F6           &kp F7          &kp F8    &kp F9           &kp F10           &kp PRINTSCREEN
-&trans     &kp NUMBER_6  &kp N7        &kp N8  &kp N9        &kp N0          &trans  &kp PAGE_UP      &kp HOME        &kp UP    &kp END          &kp MINUS         &kp EQUAL
-&trans     &kp NUMBER_1  &kp NUMBER_2  &kp N3  &kp NUMBER_4  &kp NUMBER_5    &trans  &kp PAGE_DOWN    &kp LEFT        &kp DOWN  &kp RIGHT        &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans     &kp H         &kp Y         &kp J   &kp M         &kp N           &trans  &kp PRINTSCREEN  &kp SCROLLLOCK  &kp INS   &kp F11          &kp F12           &trans
-&trans     &kp LEFT_WIN  &trans        &trans  &trans        &trans          &trans  &trans           &trans          &trans    &kp PAUSE_BREAK  &trans
+&kp GRAVE  &kp F1        &kp F2        &kp F3  &kp F4        &kp F5          &trans  &kp F6         &kp F7    &kp F8    &kp F9           &kp F10           &kp PSCRN
+&trans     &kp NUMBER_6  &kp N7        &kp N8  &kp N9        &kp N0          &trans  &kp PAGE_UP    &kp HOME  &kp UP    &kp END          &kp MINUS         &kp EQUAL
+&trans     &kp NUMBER_1  &kp NUMBER_2  &kp N3  &kp NUMBER_4  &kp NUMBER_5    &trans  &kp PAGE_DOWN  &kp LEFT  &kp DOWN  &kp RIGHT        &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans     &kp H         &kp Y         &kp J   &kp M         &kp N           &trans  &kp PSCRN      &kp SLCK  &kp INS   &kp F11          &kp F12           &trans
+&trans     &kp LEFT_WIN  &trans        &trans  &trans        &trans          &trans  &trans         &trans    &trans    &kp PAUSE_BREAK  &trans
             >;
 
             label = "gaming1";
@@ -109,8 +109,8 @@
         gaming2 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &tog 3    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &sk Q   &sk W   &sk E   &sk R   &sk T     &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &sk A   &sk S   &sk D   &sk F   &tog 3    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
